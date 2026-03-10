@@ -36,13 +36,13 @@ var l5D35DA34_0;l5D35DA34_0 = keyboard_check(vk_left);if (l5D35DA34_0){	/// 
 	/// @DnDArgument : "var" "image_angle"
 	image_angle += 4;}
 
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 /// @DnDVersion : 1
-/// @DnDHash : 1B4C37FD
-var l1B4C37FD_0;l1B4C37FD_0 = keyboard_check(vk_space);if (l1B4C37FD_0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDHash : 334FF477
+var l334FF477_0;l334FF477_0 = keyboard_check_pressed(vk_space);if (l334FF477_0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 5830AFDB
-	/// @DnDParent : 1B4C37FD
+	/// @DnDParent : 334FF477
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "obj_Bullet"
