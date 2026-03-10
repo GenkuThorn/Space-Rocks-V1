@@ -35,3 +35,21 @@ var l5D35DA34_0;l5D35DA34_0 = keyboard_check(vk_left);if (l5D35DA34_0){	/// 
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "image_angle"
 	image_angle += 4;}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+/// @DnDVersion : 1
+/// @DnDHash : 1B4C37FD
+var l1B4C37FD_0;l1B4C37FD_0 = keyboard_check(vk_space);if (l1B4C37FD_0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 5830AFDB
+	/// @DnDParent : 1B4C37FD
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "obj_Bullet"
+	/// @DnDSaveInfo : "objectid" "obj_Bullet"
+	instance_create_layer(x + 0, y + 0, "Instances", obj_Bullet);}
+
+/// @DnDAction : YoYo Games.Movement.Wrap_Room
+/// @DnDVersion : 1
+/// @DnDHash : 47DB07CF
+move_wrap(1, 1, 0);
