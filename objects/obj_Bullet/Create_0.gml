@@ -14,15 +14,16 @@ direction = obj_Player.image_angle;
 
 /// @DnDAction : YoYo Games.Movement.Add_Motion
 /// @DnDVersion : 1
-/// @DnDHash : 439B877E
-/// @DnDArgument : "dir" "obj_Player.direction"
-/// @DnDArgument : "speed" "obj_Player.speed"
-motion_add(obj_Player.direction, obj_Player.speed);
+/// @DnDHash : 3408F5CB
+/// @DnDApplyTo : {obj_Rock}
+/// @DnDArgument : "dir" "obj_Player.image_angle"
+/// @DnDArgument : "speed" "3"
+with(obj_Rock) motion_add(obj_Player.image_angle, 3);
 
 /// @DnDAction : YoYo Games.Movement.Add_Motion
 /// @DnDVersion : 1
-/// @DnDHash : 3408F5CB
-/// @DnDApplyTo : {obj_Player}
+/// @DnDHash : 6BC25FA8
+/// @DnDApplyTo : {obj_pseudoPlayer}
 /// @DnDArgument : "dir" "obj_Player.image_angle"
 /// @DnDArgument : "speed" "-3"
-with(obj_Player) motion_add(obj_Player.image_angle, -3);
+with(obj_pseudoPlayer) motion_add(obj_Player.image_angle, -3);
