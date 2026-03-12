@@ -24,5 +24,5 @@ motion_add(obj_Player.direction, obj_Player.speed);
 /// @DnDHash : 3408F5CB
 /// @DnDApplyTo : {obj_Player}
 /// @DnDArgument : "dir" "obj_Player.image_angle"
-/// @DnDArgument : "speed" "-5"
-with(obj_Player) motion_add(obj_Player.image_angle, -5);
+/// @DnDArgument : "speed" "-3"
+with(obj_Player) motion_add(obj_Player.image_angle, -3);
