@@ -18,3 +18,11 @@ direction = obj_Player.image_angle;
 /// @DnDArgument : "dir" "obj_Player.direction"
 /// @DnDArgument : "speed" "obj_Player.speed"
 motion_add(obj_Player.direction, obj_Player.speed);
+
+/// @DnDAction : YoYo Games.Movement.Add_Motion
+/// @DnDVersion : 1
+/// @DnDHash : 3408F5CB
+/// @DnDApplyTo : {obj_Player}
+/// @DnDArgument : "dir" "obj_Player.image_angle"
+/// @DnDArgument : "speed" "-5"
+with(obj_Player) motion_add(obj_Player.image_angle, -5);

@@ -17,8 +17,8 @@ instance_destroy();
 /// @DnDVersion : 1
 /// @DnDHash : 3C9126B3
 /// @DnDApplyTo : {obj_Game}
-/// @DnDArgument : "steps" "20"
+/// @DnDArgument : "steps" "120"
 with(obj_Game) {
-alarm_set(0, 20);
+alarm_set(0, 120);
 
 }
