@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 517CEF6F
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "obj_Game.Points"
+obj_Game.Points = 1;
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 3652BFF7

@@ -16,5 +16,9 @@ instance_destroy();
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 3C9126B3
-/// @DnDArgument : "steps" "1"
-alarm_set(0, 1);
+/// @DnDApplyTo : {obj_Game}
+/// @DnDArgument : "steps" "20"
+with(obj_Game) {
+alarm_set(0, 20);
+
+}
