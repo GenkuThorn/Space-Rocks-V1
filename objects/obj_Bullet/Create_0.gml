@@ -22,6 +22,14 @@ with(obj_Rock) motion_add(obj_Player.image_angle, 3);
 
 /// @DnDAction : YoYo Games.Movement.Add_Motion
 /// @DnDVersion : 1
+/// @DnDHash : 17B470B5
+/// @DnDApplyTo : {obj_Bullet}
+/// @DnDArgument : "dir" "obj_Player.image_angle"
+/// @DnDArgument : "speed" "3"
+with(obj_Bullet) motion_add(obj_Player.image_angle, 3);
+
+/// @DnDAction : YoYo Games.Movement.Add_Motion
+/// @DnDVersion : 1
 /// @DnDHash : 6BC25FA8
 /// @DnDApplyTo : {obj_pseudoPlayer}
 /// @DnDArgument : "dir" "obj_Player.image_angle"
