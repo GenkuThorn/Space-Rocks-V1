@@ -17,8 +17,8 @@ direction = obj_Player.image_angle;
 /// @DnDHash : 3408F5CB
 /// @DnDApplyTo : {obj_Rock}
 /// @DnDArgument : "dir" "obj_Player.image_angle"
-/// @DnDArgument : "speed" "3"
-with(obj_Rock) motion_add(obj_Player.image_angle, 3);
+/// @DnDArgument : "speed" "1"
+with(obj_Rock) motion_add(obj_Player.image_angle, 1);
 
 /// @DnDAction : YoYo Games.Movement.Add_Motion
 /// @DnDVersion : 1
@@ -33,5 +33,5 @@ with(obj_Bullet) motion_add(obj_Player.image_angle, 3);
 /// @DnDHash : 6BC25FA8
 /// @DnDApplyTo : {obj_pseudoPlayer}
 /// @DnDArgument : "dir" "obj_Player.image_angle"
-/// @DnDArgument : "speed" "-3"
-with(obj_pseudoPlayer) motion_add(obj_Player.image_angle, -3);
+/// @DnDArgument : "speed" "-2"
+with(obj_pseudoPlayer) motion_add(obj_Player.image_angle, -2);
