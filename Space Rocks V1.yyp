@@ -47,7 +47,7 @@
     {"id":{"name":"obj_pseudoPlayer","path":"objects/obj_pseudoPlayer/obj_pseudoPlayer.yy",},},
     {"id":{"name":"obj_Rock","path":"objects/obj_Rock/obj_Rock.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Space","path":"rooms/Space/Space.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_rock_big","path":"sprites/spr_rock_big/spr_rock_big.yy",},},
@@ -58,7 +58,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Space","path":"rooms/Space/Space.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
