@@ -204,3 +204,13 @@ var l59D0732D_0;l59D0732D_0 = mouse_check_button_pressed(mb_left);if (l59D0732
 /// @DnDVersion : 1
 /// @DnDHash : 47DB07CF
 move_wrap(1, 1, 0);
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+/// @DnDVersion : 1
+/// @DnDHash : 3E76562A
+/// @DnDArgument : "key" "vk_escape"
+var l3E76562A_0;l3E76562A_0 = keyboard_check_pressed(vk_escape);if (l3E76562A_0){	/// @DnDAction : YoYo Games.Game.Restart_Game
+	/// @DnDVersion : 1
+	/// @DnDHash : 774E070B
+	/// @DnDParent : 3E76562A
+	game_restart();}
