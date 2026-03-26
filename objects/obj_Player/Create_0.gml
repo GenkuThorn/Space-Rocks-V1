@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 1C98B62E
+/// @DnDHash : 7EBC36A0
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "powerup_spread"
 powerup_spread = false;

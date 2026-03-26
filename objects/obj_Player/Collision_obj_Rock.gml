@@ -1,3 +1,13 @@
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 3C9126B3
+/// @DnDApplyTo : {obj_Game}
+/// @DnDArgument : "steps" "120"
+with(obj_Game) {
+alarm_set(0, 120);
+
+}
+
 /// @DnDAction : YoYo Games.Particles.Effect
 /// @DnDVersion : 1
 /// @DnDHash : 288F7D60
@@ -12,13 +22,3 @@ effect_create_above(3, x + 0, y + 0, 1, $FFFFFF & $ffffff);
 /// @DnDVersion : 1
 /// @DnDHash : 5333A543
 instance_destroy();
-
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
-/// @DnDVersion : 1
-/// @DnDHash : 3C9126B3
-/// @DnDApplyTo : {obj_Game}
-/// @DnDArgument : "steps" "120"
-with(obj_Game) {
-alarm_set(0, 120);
-
-}

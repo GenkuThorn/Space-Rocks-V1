@@ -7,6 +7,6 @@ speed = 1;
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 /// @DnDVersion : 1
 /// @DnDHash : 277CA9C0
-/// @DnDArgument : "x" "room_width / 2"
-/// @DnDArgument : "y" "room_height / 2"
-direction = point_direction(x, y, room_width / 2, room_height / 2);
+/// @DnDArgument : "x" "random(room_width)"
+/// @DnDArgument : "y" "random(room_height)"
+direction = point_direction(x, y, random(room_width), random(room_height));

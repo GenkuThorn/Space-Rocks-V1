@@ -37,6 +37,7 @@
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"LINK_TO_TUTORIALS","path":"notes/LINK_TO_TUTORIALS/LINK_TO_TUTORIALS.yy",},},
+    {"id":{"name":"obj_backgroundStar","path":"objects/obj_backgroundStar/obj_backgroundStar.yy",},},
     {"id":{"name":"obj_Bullet","path":"objects/obj_Bullet/obj_Bullet.yy",},},
     {"id":{"name":"Obj_button_Help","path":"objects/Obj_button_Help/Obj_button_Help.yy",},},
     {"id":{"name":"Obj_Button_Parent","path":"objects/Obj_Button_Parent/Obj_Button_Parent.yy",},},
@@ -48,8 +49,9 @@
     {"id":{"name":"Obj_powerup_spread","path":"objects/Obj_powerup_spread/Obj_powerup_spread.yy",},},
     {"id":{"name":"obj_pseudoPlayer","path":"objects/obj_pseudoPlayer/obj_pseudoPlayer.yy",},},
     {"id":{"name":"obj_Rock","path":"objects/obj_Rock/obj_Rock.yy",},},
-    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
-    {"id":{"name":"Space","path":"rooms/Space/Space.yy",},},
+    {"id":{"name":"rm_Menu","path":"rooms/rm_Menu/rm_Menu.yy",},},
+    {"id":{"name":"rm_Space","path":"rooms/rm_Space/rm_Space.yy",},},
+    {"id":{"name":"spr_backgroundStar","path":"sprites/spr_backgroundStar/spr_backgroundStar.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_powerup","path":"sprites/spr_powerup/spr_powerup.yy",},},
@@ -60,8 +62,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
-    {"roomId":{"name":"Space","path":"rooms/Space/Space.yy",},},
+    {"roomId":{"name":"rm_Menu","path":"rooms/rm_Menu/rm_Menu.yy",},},
+    {"roomId":{"name":"rm_Space","path":"rooms/rm_Space/rm_Space.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
