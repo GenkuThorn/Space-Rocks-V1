@@ -8,4 +8,4 @@ event_inherited();
 /// @DnDHash : 2443A899
 /// @DnDArgument : "room" "Space"
 /// @DnDSaveInfo : "room" "Space"
-room_goto(Space);
+room_goto(rm_Space);
